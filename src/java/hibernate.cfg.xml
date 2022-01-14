@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+    <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+    <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/Ange</property>
+    <property name="hibernate.connection.username">root</property>
+    <property name="hibernate.connection.password">root</property>
+    <!--
+    
+-->         
+<!--    <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/angelmin_Angel</property>
+        <property name="hibernate.connection.username">angelmin_Angel</property>
+        <property name="hibernate.connection.password">USURDTT7S4CU</property>
+    
+    
+    
+-->     
+<!--    <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/angelmin_AngelM</property>
+        <property name="hibernate.connection.username">angelmin_AngelM</property>
+        <property name="hibernate.connection.password">0CDT97OSUF2V15JALD</property>-->
+    
+<!--    
+-->
+<!--    <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/angelmin_Ang</property>
+    <property name="hibernate.connection.username">angelmin_Ang</property>
+    <property name="hibernate.connection.password">OCVFOERT3K4NHLO5NQ</property>
+    -->
+    
+    
+    <property name="connection.autoReconnect">true</property>
+    <property name="connection.autoReconnectForPools">true</property>
+    <property name="connection.is-connection-validation-required">true</property>
+    <property name="hibernate.connection.pool_size">10</property>
+    <property name="hibernate.show_sql">false</property>
+    <property name="hibernate.hbm2ddl.auto">update</property>
+    <property name="hibernate.connection.autocommit">true</property>
+    <mapping class="com.accede.angel.admin.model.Admin"/>
+    <mapping class="com.accede.angel.admin.model.PreviliageLevel"/>
+    <mapping class="com.accede.angel.admin.model.EmployeeDocuments"/>
+    <mapping class="com.accede.angel.admin.model.AdminPrevilleages"/>
+    <mapping class="com.accede.angel.admin.model.PaymentFollowupMessage"/>
+    <mapping class="com.accede.angel.admin.model.Branch"/>
+    <mapping class="com.accede.angel.admin.model.BatchTime"/>
+    <mapping class="com.accede.angel.admin.model.ExternalAccountSuper"/>
+    <mapping class="com.accede.angel.admin.model.StudentVanishHistory"/>
+    <mapping class="com.accede.angel.admin.model.Course"/>
+    <mapping class="com.accede.angel.admin.model.EmployeeActiveHistory"/>
+    <mapping class="com.accede.angel.admin.model.Event"/>
+    <mapping class="com.accede.angel.admin.model.EventApplication"/>
+    <mapping class="com.accede.angel.admin.model.Exam"/>
+    <mapping class="com.accede.angel.admin.model.SuperAdminPayment"/>
+    <mapping class="com.accede.angel.admin.model.EmployeeAdavance"/>
+    <mapping class="com.accede.angel.admin.model.AssignPDFAdmin"/>
+    <mapping class="com.accede.angel.admin.model.ExamApplication"/>
+    <mapping class="com.accede.angel.admin.model.Instrument"/>
+    <mapping class="com.accede.angel.admin.model.InstrumentRepair"/>
+    <mapping class="com.accede.angel.admin.model.AssignPaymentHistory"/>
+    <mapping class="com.accede.angel.admin.model.PackageCourse"/>
+    <mapping class="com.accede.angel.admin.model.InstrumentSubcategory"/>
+    <mapping class="com.accede.angel.admin.model.PhotosVideos"/>
+    <mapping class="com.accede.angel.admin.model.ClassEnquiry"/>
+    <mapping class="com.accede.angel.admin.model.Product"/>
+    <mapping class="com.accede.angel.admin.model.Purchase"/>
+    <mapping class="com.accede.angel.admin.model.Rent"/>
+    <mapping class="com.accede.angel.admin.model.EmployeeWeekoff"/>
+    <mapping class="com.accede.angel.admin.model.EmployeeSalary"/>
+    <mapping class="com.accede.angel.admin.model.EmployeePayment"/>
+
+    <mapping class="com.accede.angel.admin.model.ExternalAccount"/>
+    <mapping class="com.accede.angel.admin.model.AccountHistory"/>
+    <mapping class="com.accede.angel.admin.model.BatchTimings"/>
+    <mapping class="com.accede.angel.admin.model.Repair"/>
+    <mapping class="com.accede.angel.admin.model.Sell"/>
+    <mapping class="com.accede.angel.admin.model.PreviousStudent"/>
+    <mapping class="com.accede.angel.admin.model.User"/>
+    <mapping class="com.accede.angel.admin.model.Admission"/>
+    <mapping class="com.accede.angel.admin.model.StudentAccount"/>
+    <mapping class="com.accede.angel.admin.model.Enquiry"/>
+    <mapping class="com.accede.angel.admin.model.EnquiryDetail"/>
+    <mapping class="com.accede.angel.admin.model.RepairDetails"/>
+    <mapping class="com.accede.angel.admin.model.RentDetails"/>
+    <mapping class="com.accede.angel.admin.model.Payment"/>
+    <mapping class="com.accede.angel.admin.model.Employee"/>
+    <mapping class="com.accede.angel.admin.model.SmsModel"/>
+    <mapping class="com.accede.angel.admin.model.TempImage"/>
+    <mapping class="com.accede.angel.admin.model.LessonPdf"/>
+    <mapping class="com.accede.angel.admin.model.LessonVideo"/>
+    <mapping class="com.accede.angel.admin.model.StudentWiseVideo"/>
+    <mapping class="com.accede.angel.admin.model.AddPdfGallery"/>
+    <mapping class="com.accede.angel.admin.model.StudentPdf"/>
+    <mapping class="com.accede.angel.admin.model.BankDetails"/>
+    <mapping class="com.accede.angel.admin.model.CustomerAccount"/>
+    <mapping class="com.accede.angel.admin.model.PaymentFollowup"/>
+    <mapping class="com.accede.angel.admin.model.UploadCoursePdfModel"/>
+    <mapping class="com.accede.angel.admin.model.SessionKey"/>
+   
+    <mapping class="com.accede.angel.sell.model.ProductModel"/>
+    <mapping class="com.accede.angel.sell.model.SellPaymentHistory"/>
+    <mapping class="com.accede.angel.sell.model.AdvanceAmount"/>
+    <mapping class="com.accede.angel.sell.model.Venderregistration"/>
+    <mapping class="com.accede.angel.sell.model.Barcode"/>
+    <mapping class="com.accede.angel.sell.model.BranchSale"/>
+    <mapping class="com.accede.angel.sell.model.BranchSaleDetails"/>
+    <mapping class="com.accede.angel.sell.model.BranchClassProduct"/>
+    <mapping class="com.accede.angel.sell.model.BranchClassSale"/>
+    <mapping class="com.accede.angel.sell.model.BranchClassSellDetails"/>
+    <mapping class="com.accede.angel.sell.model.TempSaleforBranch"/>
+    <mapping class="com.accede.angel.sell.model.BranchProduct"/>
+    <mapping class="com.accede.angel.sell.model.VendorTransaction"/>
+    <mapping class="com.accede.angel.sell.model.PurchaseTemp"/>
+    <mapping class="com.accede.angel.sell.model.TempCustomerSell"/>
+    <mapping class="com.accede.angel.sell.model.CustomerSale"/>
+    <mapping class="com.accede.angel.sell.model.CustomerSaleDetails"/>
+    <mapping class="com.accede.angel.sell.model.PurchaseProduct"/>
+    <mapping class="com.accede.angel.sell.model.AddModel"/>
+    <mapping class="com.accede.angel.sell.model.Brand"/>
+    <mapping class="com.accede.angel.sell.model.SubCategory"/>
+    <mapping class="com.accede.angel.sell.model.Category"/>
+    <mapping class="com.accede.angel.sell.model.ColorModel"/>
+    <mapping class="com.accede.angel.sell.model.CustomerQuatation"/>
+    <mapping class="com.accede.angel.sell.model.PurchaseDetails"/>
+    <mapping class="com.accede.angel.sell.model.CustomerQuatationDetails"/>
+    <mapping class="com.accede.angel.sell.model.BranchClassTransfer"/>
+    <mapping class="com.accede.angel.sell.model.Exchange"/>
+   
+   
+  </session-factory>
+</hibernate-configuration>
