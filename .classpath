@@ -1,38 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" output="target/classes" path="src/main/java">
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_202">
 		<attributes>
-			<attribute name="optional" value="true"/>
-			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="owner.project.facets" value="java"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v8.0">
 		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="owner.project.facets" value="jst.web"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
-		<attributes>
-			<attribute name="optional" value="true"/>
-			<attribute name="maven.pomderived" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="target/musicacademy/WEB-INF/lib/itextpdf-5.4.0.jar"/>
-	<classpathentry kind="output" path="target/classes"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="lib/mysql-connector-java-5.1.16-bin.jar"/>
+	<classpathentry kind="lib" path="lib/org.apache.commons.fileupload.jar"/>
+	<classpathentry kind="lib" path="lib/org.apache.commons.io.jar"/>
+	<classpathentry kind="lib" path="lib/hibernate4-support/antlr-2.7.7.jar"/>
+	<classpathentry kind="lib" path="lib/hibernate4-support/c3p0-0.9.2.1.jar"/>
+	<classpathentry kind="lib" path="lib/hibernate4-support/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="lib/hibernate4-support/ehcache-core-2.4.3.jar"/>
+	<classpathentry kind="lib" path="lib/hibernate4-support/hibernate-c3p0-4.2.6.Final.jar"/>
+	<classpathentry kind="lib" path="lib/hibernate4-support/hibernate-commons-annotations-4.0.2.Final.jar"/>
+	<classpathentry kind="lib" path="lib/hibernate4-support/hibernate-core-4.2.6.Final.jar"/>
+	<classpathentry kind="lib" path="lib/hibernate4-support/hibernate-ehcache-4.2.6.Final.jar"/>
+	<classpathentry kind="lib" path="lib/hibernate4-support/hibernate-entitymanager-4.2.6.Final.jar"/>
+	<classpathentry kind="lib" path="lib/hibernate4-support/javassist-3.15.0-GA.jar"/>
+	<classpathentry kind="lib" path="lib/hibernate4-support/jboss-logging-3.1.0.GA.jar"/>
+	<classpathentry kind="lib" path="lib/hibernate4-support/jboss-transaction-api_1.1_spec-1.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="lib/hibernate4-support/slf4j-api-1.6.1.jar"/>
+	<classpathentry kind="lib" path="lib/hibernate4-support/slf4j-simple-1.6.1.jar"/>
+	<classpathentry kind="lib" path="lib/jpa2-persistence/hibernate-jpa-2.0-api-1.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="lib/javaee-endorsed-api-6.0/javaee-doc-api.jar"/>
+	<classpathentry kind="lib" path="lib/javaee-endorsed-api-6.0/javax.annotation.jar"/>
+	<classpathentry kind="lib" path="lib/javaee-endorsed-api-6.0/jaxb-api-osgi.jar"/>
+	<classpathentry kind="lib" path="lib/javaee-endorsed-api-6.0/webservices-api-osgi.jar"/>
+	<classpathentry kind="lib" path="lib/CopyLibs/org-netbeans-modules-java-j2seproject-copylibstask.jar"/>
+	<classpathentry kind="lib" path="lib/barcode.jar"/>
+	<classpathentry kind="lib" path="lib/bridj-0.6.2.jar"/>
+	<classpathentry kind="lib" path="lib/itextpdf-5.4.0.jar"/>
+	<classpathentry kind="lib" path="lib/java-mail-1.4.4.jar"/>
+	<classpathentry kind="lib" path="lib/nblibraries.properties"/>
+	<classpathentry kind="lib" path="lib/slf4j-api-1.7.2.jar"/>
+	<classpathentry kind="lib" path="lib/webcam-capture-0.3.10.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
 </classpath>
